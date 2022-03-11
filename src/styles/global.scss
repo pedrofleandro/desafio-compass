@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #FFFFFF;
+
+    --yellow: #FFCF00;
+    --orange: #FF8100;
+    --red: #FF0020;
+
+    --gray-300: #a8a8b3;
+    --gray-600: #474747;
+    --gray-700: #313131;
+}
+
+body, input, button {
+    font: 400 1rem "Roboto", sans-serif;
+}
+
+body {
+    background-color: var(--gray-700);
+    color: var(--white)
+}
+
+h1.titilePage {
+    text-align: center;
+    margin-top: 3rem;
+
+    span {
+        color: lighten(#FFCF00, 10%)
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
