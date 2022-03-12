@@ -10,6 +10,7 @@ export function User(props) {
                 <ul className="user__ref">
                     <li>Nome:</li>
                     <li>E-mail:</li>
+                    <li>Local</li>
                     <li>Bio:</li>
                     <li>Blog:</li>
                     <li>Página:</li>
@@ -18,6 +19,7 @@ export function User(props) {
                 <ul className="user__data">
                     <li>{userData.name}</li>
                     <li>{userData.email}</li>
+                    <li>{userData.location}</li>
                     <li>{userData.bio}</li>
                     <li><a href={userData.blog} target="_blank" rel="noreferrer">{userData.blog}</a></li>
                     <li><a href={userData.html_url} target="_blank" rel="noreferrer">{userData.html_url}</a></li>

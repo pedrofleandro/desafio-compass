@@ -20,7 +20,7 @@ export function RepositoryList(props) {
             <ul className="repository__list" >          
                 {repositorys.map(repository => {
                     return (
-                        <li className="respository__item">
+                        <li key={repository.name} className="respository__item">
                             <strong>{repository.name}</strong>
                             <p>{repository.description}</p>
 
